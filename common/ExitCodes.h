@@ -1,0 +1,15 @@
+#pragma once
+#include "stdafx.h"
+
+enum ExitCodes
+{
+	SUCCESS,
+	SOCK_NOT_FOUND,
+	SOCKET_FAILED,
+	ACCEPT_FAILED,
+	SYNC_FAILED,
+	LISTEN_FAILED,
+	BIND_FAILED,
+	CONNECT_FAILED,
+	UNRESOLVED_HOST
+};
